@@ -1,0 +1,95 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Game Elements */
+  
+  #guessField {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #subt {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #subt:hover {
+    background-color: #3e8e41;
+  }
+  
+  .guesses {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  .lastResult {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  .loworhi {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .resultpara {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* New Game Button */
+  
+  #newGame {
+    cursor: pointer;
+  }
+  
+  #newGame:hover {
+    color: #4CAF50;
+  }
